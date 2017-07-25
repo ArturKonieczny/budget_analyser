@@ -1,0 +1,25 @@
+{
+  "name": "budget_analyser",
+  "version": "1.0.0",
+  "description": "Node application for home budget statistics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturKonieczny/budget_analyser.git"
+  },
+  "author": "Artur Konieczny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturKonieczny/budget_analyser/issues"
+  },
+  "homepage": "https://github.com/ArturKonieczny/budget_analyser#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "eslint": "^4.3.0",
+    "eslint-config-qb": "^1.0.0",
+    "mocha": "^3.4.2"
+  }
+}
