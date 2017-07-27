@@ -1,6 +1,5 @@
-const readFile = require('./tools/readFile');
+const { readFile, parseCSV } = require('./tools');
 const path = require('path');
-const parseCSV = require('./tools/parseCSV');
 
 module.exports = function budgetAnalyser(config, runLocation) {
   const { inputFile, encoding, headers } = config;
