@@ -49,3 +49,7 @@ node_modules/
 target
 build/
 npm-debug.log
+
+# input file
+
+input.csv
